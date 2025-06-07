@@ -457,17 +457,24 @@
               </a>
             </li>
           </ul>
-          <form class="footer-form">
-            <p>Subscribe</p>
-            <label aria-label="footer email">
-              <input
-                class="footer-input"
-                type="email"
-                name="footer-email"
-                placeholder="E-mail"
-            /></label>
-            <button class="btn footer-btn" type="submit">Subscribe</button>
-          </form>
+          <div class="footer-form-content">
+            <p class="footer-form-text">Subscribe</p>
+            <form class="footer-form">
+              <label class="footer-form-email" aria-label="footer email">
+                <input
+                  class="footer-input"
+                  type="email"
+                  name="footer-email"
+                  placeholder="E-mail"
+              /></label>
+              <button class="footer-btn" type="submit">
+                Subscribe
+                <svg class="footer-form-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
