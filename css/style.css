@@ -633,7 +633,7 @@ body {
 
 .modal-close-icon:hover,
 .modal-close-icon:focus {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .modal-item {
@@ -660,7 +660,7 @@ body {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-input {
@@ -670,7 +670,7 @@ body {
 }
 
 .form-input:focus {
-  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .form-input:focus + .form-input-icon:focus {
@@ -729,7 +729,6 @@ body {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
