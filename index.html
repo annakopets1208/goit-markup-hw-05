@@ -478,7 +478,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
@@ -488,15 +488,15 @@
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="form" name="issue_report_form" autocomplete="off">
           <div class="modal-field">
-            <label for="username" class="form-label">Name</label>
+            <label for="user-name" class="form-label">Name</label>
             <div class="form-input-cover">
               <input
                 class="form-input modal-item"
                 type="text"
-                name="username"
-                id="username"
+                name="user-name"
+                id="user-name"
               />
-              <svg class="form-input-icon" width="18" height="18">
+              <svg class="form-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
@@ -510,7 +510,7 @@
                 name="phone"
                 id="phone"
               />
-              <svg class="form-input-icon" width="18" height="18">
+              <svg class="form-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
             </div>
@@ -524,29 +524,29 @@
                 name="email"
                 id="email"
               />
-              <svg class="form-input-icon" width="18" height="18">
+              <svg class="form-input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
             </div>
           </div>
           <div class="modal-field">
-            <label for="description" class="form-label">Comment</label>
+            <label for="user-comment" class="form-label">Comment</label>
             <textarea
               class="form-textarea modal-item"
-              name="description"
+              name="user-comment"
               placeholder="Text input"
-              id="description"
+              id="user-comment"
             ></textarea>
           </div>
-          <div class="modal-field">
+          <div class="modal-field modal-field-checkbox">
             <input
               type="checkbox"
-              name="consent"
-              id="consent"
+              name="user-privacy"
+              id="user-privacy"
               class="modal-check visually-hidden"
               value="true"
             />
-            <label for="consent" class="check-text"
+            <label for="user-privacy" class="check-text"
               ><span class="check-element"
                 ><svg class="check-element-ikon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
