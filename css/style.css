@@ -648,6 +648,10 @@ body {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-item:focus {
+  border-color: #4d5ae5;
+}
+
 .modal-text {
   line-height: 150%;
   padding-top: 48px;
@@ -669,11 +673,7 @@ body {
   padding-left: 38px;
 }
 
-.form-input:focus {
-  fill: #4d5ae5;
-}
-
-.form-input:focus + .form-input-icon:focus {
+.modal-item + .form-input-icon:focus {
   fill: #4d5ae5;
 }
 
@@ -695,12 +695,12 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input-icon:focus {
-  fill: #4d5ae5;
-}
-
 .form-input-cover {
   position: relative;
+}
+
+.modal-field-comment {
+  margin-bottom: 16px;
 }
 
 .form-textarea {
@@ -771,8 +771,10 @@ body {
   outline: none;
   border: none;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  text-align: center;
   color: #ffffff;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -781,12 +783,4 @@ body {
 .form-button:hover,
 .form-button:focus {
   background-color: #404bbf;
-}
-
-.form-button-text {
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.04em;
-  text-align: center;
-  color: #fff;
 }
