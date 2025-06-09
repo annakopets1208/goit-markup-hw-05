@@ -744,7 +744,6 @@ textarea:focus + .form-input-icon {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
   line-height: 1.17;
 }
